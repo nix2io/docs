@@ -13,7 +13,7 @@ module.exports = {
     ],
     base: "https://nix2io.github.io/docs",
     themeConfig: {
-        logo: "/logo.png",
+        logo: "logo.png",
         repo: "nix2io/docs",
         editLinks: true,
         docsDir: "docs",
