@@ -11,6 +11,7 @@ module.exports = {
             { name: "apple-mobile-web-app-status-bar-style", content: "black" },
         ],
     ],
+    base: "https://nix2io.github.io/docs",
     themeConfig: {
         logo: "/logo.png",
         repo: "nix2io/docs",
