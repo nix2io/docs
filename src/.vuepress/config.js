@@ -1,7 +1,7 @@
 const { description } = require("../../package");
 
 module.exports = {
-    title: "Koon Technologies Documentation",
+    title: "Nix² Documentation",
     description: description,
     head: [
         ["meta", { name: "theme-color", content: "#3eaf7c" }],
@@ -13,7 +13,7 @@ module.exports = {
     ],
     themeConfig: {
         logo: "/logo.png",
-        repo: "sivrad/docs",
+        repo: "nix2io/docs",
         editLinks: true,
         docsDir: "docs",
         editLinkText: "Edit this page on GitHub",
@@ -34,15 +34,7 @@ module.exports = {
                 ],
             },
         ],
-        sidebar: {
-            "/guide/": [
-                {
-                    title: "Guide",
-                    collapsable: false,
-                    children: ["", "using-vue"],
-                },
-            ],
-        },
+        sidebar: "auto",
     },
 
     /**

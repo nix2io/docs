@@ -4,7 +4,7 @@
 
 Our mission is to allow normal people to connect their digital life together. Users will be able to connect all their online accounts, which we call integrations, and then can use an assortment of interfaces ranging from natrual langauge to web-based UI.
 
-## The Platform
+## Platform
 
 The platform is a set of services that abstracts the implemenation of certain functions so that developers can write software without needing to know how things work because the structure of data and behavior of functions are defined.
 
