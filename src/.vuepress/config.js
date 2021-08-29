@@ -25,6 +25,16 @@ module.exports = {
                 link: "/overview/",
             },
             {
+                text: "Applications",
+                ariaLabel: "Applications Menu",
+                items: [
+                    {
+                        text: "Matrix",
+                        link: "/apps/matrix/"
+                    }
+                ]
+            },
+            {
                 text: "Services",
                 ariaLabel: "Services Menu",
                 items: [
